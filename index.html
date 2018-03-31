@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ECU Student Recruiter</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="thankyou.php" method="post">
+
+  <div class="container">
+    <h1 class="brand">
+      <span>ECU</span> Student Recruiter</h1>
+    <div class="wrapper">
+      <div class="company-info">
+        <h3>EAST CAROLINA UNIVERSITY</h3>
+        <ul>
+          <li>
+            <i class="fa fa-road"></i> E 5 st, Greenville, NC, 27858</li>
+          <li>
+            <i class="fa fa-phone"></i> (252)-328-6131 </li>
+          <li>
+            <i class="fa fa-envelope"></i> studentrecruiter@ecu.edu</li>
+        </ul>
+      </div>
+      <div class="contact">
+        <h3>Personal Information</h3>
+        <div class="alert">Your message has been sent</div>
+        <form id="contactForm">
+          First Name:<br>
+  <input type="text" name="firstName" required><br>
+  
+  Last Name:<br>
+  <input type="text" name="lastName" required><br>
+ 
+ 	Email: <br>
+  <input type="email" name="email" required><br>
+  <br>
+ 
+ 
+  Phone (10 digits non spaced):<br>
+  <input type="text" name="phone" required><br>
+ 
+
+ 
+ 
+ 
+	  Gender:<br>
+                  <select name="gender" required/>
+                        <option value = "Female">Female</option>
+                        <option value = "Male">Male</option>
+                        <option value = "Transgender">Transgender</option>
+                  </select><br>
+ 
+	StreetAddress:<br>
+  <input type="text" name="street" required><br>
+  
+   City:<br>
+  <input type="text" name="city" required><br>
+  
+  State:<br>
+  <input type="text" name="state" required><br>
+  
+  Zip Code:<br>
+  <input type="text" name="zip" required><br>
+  
+  BirthDate(MM/DD/YYYY):<br>
+  <input type="date" name="birth" required><br>
+          <h3>II.Personalize the Events you have</h3>
+
+          <p></p>
+          <label>
+            Academic Session 1:
+            <select name="dep1" required/>
+
+            <option value="1">Computer Science</option>
+            <option value="2">English</option>
+            <option value="3">Art</option>
+            <option value="4">Biology</option>
+            <option value="5">Philosophy</option>
+            <option value="6">Physics</option>
+            </select>
+          </label>
+          </p>
+          <p>
+            <label>
+              Academic Session 2:
+              <select name="dep2" required/>
+              <option value="0">None</option>
+              <option value="1">Computer Science</option>
+              <option value="2">English</option>
+              <option value="3">Art</option>
+              <option value="4">Biology</option>
+              <option value="5">Philosophy</option>
+              <option value="6">Physics</option>
+              </select>
+            </label>
+          </p>
+          <p>
+            <label>
+              Academic Session 3:
+              <select name="dep3" required/>
+              <option value="0">None</option>
+              <option value="1">Computer Science</option>
+              <option value="2">English</option>
+              <option value="3">Art</option>
+              <option value="4">Biology</option>
+              <option value="5">Philosophy</option>
+              <option value="6">Physics</option>
+              </select>
+            </label>
+          </p>
+          <p>
+            <label>
+              Athletic Session 1:
+              <select name="ath1" required/>
+              <option value="0">None</option>
+              <option value="7">Soccer</option>
+              <option value="8">Baseball</option>
+              <option value="9">Swimming</option>
+              <option value="10">Football</option>
+              </select>
+            </label>
+          </p>
+          <p>
+            <label>
+              Athletic Session 2:
+              <select name="ath2" required/>
+              <option value="0">None</option>
+              <option value="7">Soccer</option>
+              <option value="8">Baseball</option>
+              <option value="9">Swimming</option>
+              <option value="10">Football</option>
+              </select>
+            </label>
+          </p>
+
+          <p>
+            <label>
+              Would you like to opt out of a session?
+              <select name="noSession" required/>
+              <option value="0">No</option>
+              <option value="1">Yes</option>
+              </select>
+            </label>
+          </p>
+          <p>
+            <label>
+              Would you like a campus tour?
+              <select name="tour" required/>
+              <option value="0">No</option>
+              <option value="1">Yes</option>
+              </select>
+            </label>
+          </p>
+          <p>
+            <label>
+              Will you join us for lunch on campus?
+              <select name="lunch" required/>
+              <option value="0">No</option>
+              <option value="1">Yes</option>
+              </select>
+            </label>
+            <p>
+              <label>
+                Would you like a financial aid session?
+                <select name="aid" required/>
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+                </select>
+              </label>
+            </p>
+          </p>
+
+          <br>
+          <p class="full">
+            <button type="submit">Submit</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
